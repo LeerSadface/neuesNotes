@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounder_border"
+    android:textColor="@color/white"
+    android:layout_marginTop="7dp">
+
+    <TextView
+        android:id="@+id/noteTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/noteCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:padding="6dp"
+        android:textColor="@color/white"
+        android:text="Category" />
+
+    <!-- Note Date -->
+    <TextView
+        android:id="@+id/noteDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="6dp"
+        android:textColor="@color/white"
+        android:paddingTop="2dp" />
+
+    <!-- Note Description -->
+    <TextView
+        android:id="@+id/noteDescriptionTextView"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:paddingStart="6dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/white"
+        android:text="Description"
+        android:textSize="13sp" />
+
+
+</LinearLayout>
